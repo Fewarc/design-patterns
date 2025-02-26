@@ -7,7 +7,7 @@ it("creates windows cross platform app", () => {
 });
 
 it("creates ios cross platform app", () => {
-  const windowsApp = new CrossPlatformApp("IOS");
+  const iosApp = new CrossPlatformApp("IOS");
 
-  expect(windowsApp.clickButton()).toBe("Clicked an ios button");
+  expect(iosApp.clickButton()).toBe("Clicked an ios button");
 });
