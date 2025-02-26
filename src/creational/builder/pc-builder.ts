@@ -94,22 +94,22 @@ export class PCBuilder extends Builder<PC> {
   }
 
   @logMethod()
-  public setCPU(cpu: CPU) {
+  public setCPU(cpu: PC["_CPU"]) {
     this.builtObject.CPU = cpu;
     return this;
   }
 
-  public setRAM(ram: RAM) {
+  public setRAM(ram: PC["_RAM"]) {
     this.builtObject.RAM = ram;
     return this;
   }
 
-  public setStorageDisk(storageDisk: StorageDisk) {
+  public setStorageDisk(storageDisk: PC["_StorageDisk"]) {
     this.builtObject.StorageDisk = storageDisk;
     return this;
   }
 
-  public setGPU(gpu: GPU) {
+  public setGPU(gpu: PC["_GPU"]) {
     this.builtObject.GPU = gpu;
     return this;
   }
