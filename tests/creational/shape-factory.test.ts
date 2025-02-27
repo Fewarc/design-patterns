@@ -1,4 +1,4 @@
-import { ShapeFactory } from "../src/creational/factory/shapes-factory";
+import { ShapeFactory } from "../../src/creational/factory/shapes-factory";
 
 it("uses factory to create a square", () => {
   const square = ShapeFactory.getShape("SQUARE");

@@ -1,4 +1,4 @@
-import { Database } from "../src/creational/singleton/database-singleton";
+import { Database } from "../../src/creational/singleton/database-singleton";
 
 it("creates singleton database", () => {
   const db = Database.getInstance("DB 1");

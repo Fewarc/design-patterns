@@ -1,4 +1,4 @@
-import { CrossPlatformApp } from "../src/creational/abstract-factory/gui-abstract-factory";
+import { CrossPlatformApp } from "../../src/creational/abstract-factory/gui-abstract-factory";
 
 it("creates windows cross platform app", () => {
   const windowsApp = new CrossPlatformApp("windows");

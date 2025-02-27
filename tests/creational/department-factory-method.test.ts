@@ -1,7 +1,7 @@
 import {
   ITDepartment,
   LegalDepartment,
-} from "../src/creational/factory-method/department-factory-method";
+} from "../../src/creational/factory-method/department-factory-method";
 
 it("creates programmer via IT Department", () => {
   const itDepartment = new ITDepartment();

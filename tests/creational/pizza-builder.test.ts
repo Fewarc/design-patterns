@@ -1,4 +1,4 @@
-import { PizzaBuilder } from "../src/creational/builder/pizza-builder";
+import { PizzaBuilder } from "../../src/creational/builder/pizza-builder";
 
 it("should build large burrata salami pizza", () => {
   const pizzaBuilder = new PizzaBuilder();

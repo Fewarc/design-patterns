@@ -2,7 +2,7 @@ import {
   Square,
   ShapesRegistry,
   Circle,
-} from "../src/creational/prototype/shape-prototype";
+} from "../../src/creational/prototype/shape-prototype";
 
 it("pushes new prototype to registry", () => {
   const square = new Square();

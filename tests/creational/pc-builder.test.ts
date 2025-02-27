@@ -1,4 +1,4 @@
-import { PCBuilder } from "../src/creational/builder/pc-builder";
+import { PCBuilder } from "../../src/creational/builder/pc-builder";
 
 it("should build intel 16GB HDD 1650 PC", () => {
   const pcBuilder = new PCBuilder();
